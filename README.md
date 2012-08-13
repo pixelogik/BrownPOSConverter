@@ -3,7 +3,7 @@ brown_pos_converter
 
 I use this script to generate one big brown.pos to train part of speech models for natural language processing. It constructs one large easily parsable file with POS tagged sentences (one token per line and sentences separated by empty lines) from brown POS corpus files. This script ignores some fucked up sentences and performs token mappings like "I'm" -> "I" "am". 
 
-Just set path variable BROWN_POS_PATH where all your brown POS training files are and run it. You can also chose the token/tag separator-string TAG_TOKEN_SEPARATOR. 
+Just set path variable BROWN_POS_PATH to where all your brown POS training files are and run it. You can also chose the token/tag separator-string TAG_TOKEN_SEPARATOR. 
 
 Output with TAG_TOKEN_SEPARATOR='#!#' looks like this:
 
